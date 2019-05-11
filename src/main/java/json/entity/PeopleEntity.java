@@ -1,10 +1,9 @@
-package json.jackson.entity;
+package json.entity;
 
 import org.codehaus.jackson.annotate.JsonIgnore;
 import org.codehaus.jackson.annotate.JsonIgnoreProperties;
 import org.codehaus.jackson.annotate.JsonProperty;
 
-import java.time.LocalDateTime;
 import java.util.List;
 import java.util.Objects;
 

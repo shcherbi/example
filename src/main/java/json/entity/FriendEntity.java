@@ -1,4 +1,4 @@
-package json.jackson.entity;
+package json.entity;
 
 import org.codehaus.jackson.annotate.JsonProperty;
 

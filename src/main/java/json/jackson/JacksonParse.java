@@ -1,6 +1,6 @@
-package json.jackson.action;
+package json.jackson;
 
-import json.jackson.entity.PeopleEntity;
+import json.entity.PeopleEntity;
 import org.codehaus.jackson.map.ObjectMapper;
 import org.codehaus.jackson.map.type.TypeFactory;
 
@@ -9,7 +9,7 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
-public class JsonParse {
+public class JacksonParse {
     public static void main(String[] args) {
         ObjectMapper mapper = new ObjectMapper();
         TypeFactory typeFactory = mapper.getTypeFactory();
@@ -21,7 +21,6 @@ public class JsonParse {
         } catch (IOException e) {
             e.printStackTrace();
         }
-
 
         File file = new File("src/main/resources/json/jackson/data1.json");
         try {
